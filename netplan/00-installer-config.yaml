@@ -1,9 +1,11 @@
 # This is the network config written by 'subiquity'
 network:
   ethernets:
+# This is configured to get a dhcp address from the host network via eth0
     eth0:
       dhcp4: true
+# This is configured to be the gateway for the private VM network 172.18.68.x/24 via static ip .1 on eth1
     eth1:
       dhcp4: no
-       - addresses: [172.18.68.1/24]
+      addresses: [172.18.68.1/24]
   version: 2
