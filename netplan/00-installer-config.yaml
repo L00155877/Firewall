@@ -8,4 +8,6 @@ network:
     eth1:
       dhcp4: no
       addresses: [172.18.68.1/24]
+      nameservers:
+         addresses: [8.8.8.8,8.8.4.4]
   version: 2
