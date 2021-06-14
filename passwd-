@@ -31,3 +31,5 @@ usbmux:x:111:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
 sshd:x:112:65534::/run/sshd:/usr/sbin/nologin
 systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
 administrator:x:1000:1000:administrator:/home/administrator:/bin/bash
+lxd:x:998:100::/var/snap/lxd/common/lxd:/bin/false
+sssd:x:113:117::/var/lib/sss:/usr/sbin/nologin

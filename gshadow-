@@ -2,7 +2,7 @@ root:*::
 daemon:*::
 bin:*::
 sys:*::
-adm:*::syslog
+adm:*::syslog,administrator
 tty:*::syslog
 disk:*::
 lp:*::
@@ -15,12 +15,12 @@ kmem:*::
 dialout:*::
 fax:*::
 voice:*::
-cdrom:*::
+cdrom:*::administrator
 floppy:*::
 tape:*::
-sudo:*::
+sudo:*::administrator
 audio:*::
-dip:*::
+dip:*::administrator
 www-data:*::
 backup:*::
 operator:*::
@@ -32,7 +32,7 @@ shadow:*::
 utmp:*::
 video:*::
 sasl:*::
-plugdev:*::
+plugdev:*::administrator
 staff:*::
 games:*::
 users:*::
@@ -52,5 +52,6 @@ uuidd:!::
 tcpdump:!::
 ssh:!::
 landscape:!::
-lxd:!::
+lxd:!::administrator
 systemd-coredump:!!::
+administrator:!::
