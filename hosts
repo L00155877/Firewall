@@ -2,6 +2,7 @@
 127.0.1.1 firewall.l00155877.lyit firewall
 
 140.82.121.4 github.com
+91.189.91.39 ie.archive.ubuntu.com
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
